@@ -15,6 +15,9 @@
 		3BF4FFD31E358ED300738B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF4FFD11E358ED300738B69 /* LaunchScreen.storyboard */; };
 		3BF4FFDE1E358ED300738B69 /* iOS_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF4FFDD1E358ED300738B69 /* iOS_AssignmentTests.swift */; };
 		3BF4FFE91E358ED300738B69 /* iOS_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF4FFE81E358ED300738B69 /* iOS_AssignmentUITests.swift */; };
+		3BF4FFF71E359FEB00738B69 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF4FFF61E359FEB00738B69 /* DetailViewController.swift */; };
+		3BF4FFF91E35A00D00738B69 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF4FFF81E35A00D00738B69 /* TableViewCell.swift */; };
+		3BF4FFFB1E3604A500738B69 /* ResultsFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3BF4FFFA1E3604A500738B69 /* ResultsFile.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3BF4FFE41E358ED300738B69 /* iOS AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BF4FFE81E358ED300738B69 /* iOS_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_AssignmentUITests.swift; sourceTree = "<group>"; };
 		3BF4FFEA1E358ED300738B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BF4FFF61E359FEB00738B69 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3BF4FFF81E35A00D00738B69 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3BF4FFFA1E3604A500738B69 /* ResultsFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ResultsFile.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,14 @@
 			children = (
 				3BF4FFC51E358ED300738B69 /* AppDelegate.swift */,
 				3BF4FFC71E358ED300738B69 /* ViewController.swift */,
+				3BF4FFF61E359FEB00738B69 /* DetailViewController.swift */,
 				3BF4FFC91E358ED300738B69 /* Main.storyboard */,
 				3BF4FFCF1E358ED300738B69 /* Assets.xcassets */,
 				3BF4FFD11E358ED300738B69 /* LaunchScreen.storyboard */,
 				3BF4FFD41E358ED300738B69 /* Info.plist */,
+				3BF4FFFA1E3604A500738B69 /* ResultsFile.txt */,
 				3BF4FFCC1E358ED300738B69 /* iOS_Assignment.xcdatamodeld */,
+				3BF4FFF81E35A00D00738B69 /* TableViewCell.swift */,
 			);
 			path = "iOS Assignment";
 			sourceTree = "<group>";
@@ -238,6 +247,7 @@
 				3BF4FFD31E358ED300738B69 /* LaunchScreen.storyboard in Resources */,
 				3BF4FFD01E358ED300738B69 /* Assets.xcassets in Resources */,
 				3BF4FFCB1E358ED300738B69 /* Main.storyboard in Resources */,
+				3BF4FFFB1E3604A500738B69 /* ResultsFile.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BF4FFF91E35A00D00738B69 /* TableViewCell.swift in Sources */,
 				3BF4FFC81E358ED300738B69 /* ViewController.swift in Sources */,
 				3BF4FFC61E358ED300738B69 /* AppDelegate.swift in Sources */,
 				3BF4FFCE1E358ED300738B69 /* iOS_Assignment.xcdatamodeld in Sources */,
+				3BF4FFF71E359FEB00738B69 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
